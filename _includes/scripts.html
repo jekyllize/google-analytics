@@ -1,0 +1,4 @@
+{%-for script in page.scripts-%}
+		{{ newLine }}
+		<script defer src="{{ '/assets/js/' | append: script | append: '.js' | relative_url }}"></script>
+{%-endfor-%}

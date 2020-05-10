@@ -1,0 +1,19 @@
+---
+title: "Search"
+scritps: "google-cse"
+---
+<div class="row my-4 justify-content-center">
+	<div class="col-md-7">
+		<p class="text-center">Search this website:</p>
+		<form class="form-search" role="search" action="/search/">
+			<div class="input-group input-group-lg">
+				<input type="text" id="search-box" class="form-control searchbox" name="query">
+				<div class="input-group-append">
+					<button class="btn btn-primary" type="submit" value="search">Search</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div id="searchresults" class="gcse-searchresults-only" data-enableHistory="true"></div>
